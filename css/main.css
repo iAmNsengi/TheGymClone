@@ -304,6 +304,7 @@ main .section-4 .featured-trips-container .trip .trip-category {
   text-transform: uppercase;
   font-size: 12px;
   padding-block: 10px;
+  color: #555;
 }
 main .section-4 .featured-trips-container .trip .title {
   font-weight: 800;
