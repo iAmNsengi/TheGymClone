@@ -113,8 +113,14 @@ main .landing form {
   justify-content: space-between;
   align-items: center;
 }
-main .landing form input {
+main .landing form .input {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+  align-items: center;
   padding: 10px;
+  color: #555;
+  font-size: 17px;
   outline: none;
   border: 0.5px solid rgb(36, 34, 34);
   border-radius: 10px;
@@ -122,8 +128,20 @@ main .landing form input {
   height: 3rem;
   cursor: pointer;
 }
-main .landing form input:focus {
+main .landing form .input i {
+  font-size: 24px;
+}
+main .landing form .input span {
+  opacity: 0.9;
+}
+main .landing form .input:hover {
   border: 1px solid blue;
+}
+main .landing form .input .input-multiple-lines {
+  display: flex;
+  flex-direction: column;
+  font-size: 13px;
+  gap: 5px;
 }
 main .landing form button {
   background-color: #0d0556;
