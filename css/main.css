@@ -310,3 +310,6 @@ main .section-4 .featured-trips-container .trip .title {
   font-size: 14px;
   color: #333;
 }
+.spacer {
+  margin-top: 40px;
+}
