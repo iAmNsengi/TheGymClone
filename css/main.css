@@ -7,6 +7,10 @@
 body {
   overflow-x: hidden;
 }
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
 
 /* --------- navigation bar starts here ---- */
 nav {
@@ -165,10 +169,6 @@ main .section-2 {
   color: #333 !important;
 }
 
-main .section-2 .container {
-  width: 90%;
-  margin: 0 auto;
-}
 main .section-2 h2 {
   padding-block: 10px;
 }
@@ -205,6 +205,7 @@ main .section-2 .slideshow-container .slide .img-title {
 
 main .section-2 h1 {
   padding-block: 15px;
+  margin-top: 25px;
 }
 
 main .section-2 .slideshow-container .accomodation {
@@ -235,8 +236,6 @@ main .section-3 {
   margin-top: 200px;
 }
 main .section-3 .container {
-  width: 90%;
-  margin: 0 auto;
   margin-top: 30px;
   background-image: url("../img/banner4.jpg");
   background-repeat: no-repeat;
@@ -256,9 +255,12 @@ main .section-3 .text-container {
   left: 50%;
   transform: translate(-125%, -50%);
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 main .section-3 .text-container h2 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   padding-block: 10px;
 }
 main .section-3 .text-container p {
@@ -267,5 +269,18 @@ main .section-3 .text-container p {
 }
 
 main .section-3 .text-container button {
-  margin-top: 10px;
+  margin-top: 15px;
+  padding: 16px 20px;
+  background-color: #120c4a;
+  outline: none;
+  color: white;
+  border: none;
+  font-weight: 700;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* -------- section 4 starts here---- */
+main .section-4 {
+  margin-top: 100px;
 }
