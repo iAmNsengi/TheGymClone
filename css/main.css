@@ -284,3 +284,29 @@ main .section-3 .text-container button {
 main .section-4 {
   margin-top: 100px;
 }
+main .section-4 .featured-trips-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 25px;
+}
+
+main .section-4 .featured-trips-container .trip {
+  max-width: 50%;
+  margin-top: 25px;
+}
+main .section-4 .featured-trips-container .trip img {
+  max-width: 100%;
+  border-radius: 20px;
+  height: fit-content;
+}
+main .section-4 .featured-trips-container .trip .trip-category {
+  text-transform: uppercase;
+  font-size: 12px;
+  padding-block: 10px;
+}
+main .section-4 .featured-trips-container .trip .title {
+  font-weight: 800;
+  font-size: 14px;
+  color: #333;
+}
