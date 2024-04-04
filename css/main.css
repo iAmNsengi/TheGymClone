@@ -4,6 +4,9 @@
   box-sizing: border-box;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+body {
+  overflow-x: hidden;
+}
 
 /* --------- navigation bar starts here ---- */
 nav {
@@ -127,4 +130,41 @@ main .landing form button {
   outline: none;
   border-radius: 20px;
   font-weight: 800;
+}
+
+/* section 2 starts here */
+main .section-2 {
+  width: 100vw;
+  padding-top: 80px;
+  color: #333 !important;
+}
+
+main .section-2 .container {
+  width: 90%;
+  margin: 0 auto;
+}
+main .section-2 h2 {
+  padding-block: 10px;
+}
+main .section-2 .slideshow-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  overflow-x: scroll;
+}
+main .section-2 .slideshow-container::-webkit-scrollbar {
+  display: none;
+}
+main .section-2 .slideshow-container .slide {
+  border-radius: 20px;
+  border: 0.5px solid #333;
+  overflow: hidden;
+  height: 200px;
+  min-width: 400px;
+  display: flex;
+  flex-direction: column;
+}
+main .section-2 .slideshow-container .slide img {
+  width: 100%;
 }
