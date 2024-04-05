@@ -9,3 +9,6 @@ For structuring elements of the site i.e. like the skeletom <br>
 2. Css<br>
 For the actual design<br>
 <code>Hoping to add Js too for the animations and the responsiveness</code>
+<br>
+<br>
+<p>Feel free to visit my other repos fro my previous works 🔥</p>
