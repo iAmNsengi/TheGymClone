@@ -11,4 +11,4 @@ For the actual design<br>
 <code>Hoping to add Js too for the animations and the responsiveness</code>
 <br>
 <br>
-<p>Feel free to visit my other repos fro my previous works 🔥</p>
+<p>Feel free to visit my other repos to check my previous works 🔥</p>
