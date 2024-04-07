@@ -113,6 +113,7 @@ main .landing {
   width: 100%;
 }
 main .landing form {
+  position: sticky;
   margin-top: 1rem;
   background-color: #fff;
   padding: 10px;
@@ -122,6 +123,7 @@ main .landing form {
   justify-content: space-between;
   align-items: center;
 }
+
 main .landing form .input {
   display: flex;
   justify-content: flex-start;
@@ -220,6 +222,7 @@ main .section-2 .slideshow-container .slide .img-title {
   align-items: center;
   font-size: 16px; 
   color: blue;
+  cursor: pointer;
 }
 .slide-button span  {
   position: absolute;
@@ -228,6 +231,14 @@ main .section-2 .slideshow-container .slide .img-title {
   top: 0;
   right: 5px;
   margin-top: -11px;
+}
+.slide-button:hover span {
+  transform: scale(1.1);
+  transition: ease all .2s;
+}
+.slide-button:hover {
+  transform: scale(1.1);
+  transition: ease all .2s;
 }
 
 main .section-2 h1 {
@@ -325,7 +336,6 @@ main .section-4 .featured-trips-container .trip {
 main .section-4 .featured-trips-container .trip img {
   max-width: 100%;
   border-radius: 20px;
-  height: fit-content;
 }
 main .section-4 .featured-trips-container .trip .trip-category {
   text-transform: uppercase;
@@ -340,4 +350,30 @@ main .section-4 .featured-trips-container .trip .title {
 }
 .spacer {
   margin-top: 40px;
+}
+
+/* -------- section 5 starts here ----- */
+main .section-5{
+  margin-top: 500px;
+}
+.section-5 .card-container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.section-5 .card-container .card{
+  display: flex;
+  flex-direction: column;
+  color: #333;
+  gap: 20px ;
+}
+.section-5 .card-container .card .image{
+  width: 30px;
+}
+.section-5 .card-container .card .image img{
+  width: 100%;
+}
+.section-5 .card-container .card h2{
+  font-size: 18px;
 }
